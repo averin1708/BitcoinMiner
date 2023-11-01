@@ -72,7 +72,7 @@ uint32_t mineblock(uint32_t noncestart, char* version, char* prevhash,
 
     while(true)
     {
-        nonce++;
+        nonce++++++:
 
         hashblock(nonce, version, prevhash, merkle_root, time, nbits, hash);
 
